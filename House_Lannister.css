@@ -1,0 +1,38 @@
+body {
+    font-family: 'Cinzel', serif;
+    color: #A67C3C; /* Cor dourada */
+    background-color: #000; /* Fundo preto para destacar o texto */
+    margin: 20px;
+    line-height: 1.6;
+}
+.link {
+    color: white; 
+    margin: 0 15px;
+    text-align: center
+}
+main {
+    padding: 20px;
+}
+.Texto {
+    text-align: justify; 
+    margin: 20px;
+}
+h1, h2 {
+    font-weight: 700; /* Títulos em negrito */
+    display: flex; /* Usar flexbox para alinhar a imagem e o texto */
+    align-items: center; /* Alinhamento vertical */
+}
+img {
+    max-width: 100px; /* Largura máxima da imagem aumentada */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 20px; /* Espaço à esquerda da imagem */
+}
+footer {
+    background-color: black;
+    color: #A67C3C;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

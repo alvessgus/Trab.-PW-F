@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <title> Casa Stark | Game Of Thrones </title>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CasaStark.css"> <!-- Chama o arquivo CSS -->
+        <!-- <link rel="icon" href="favicon.ico" type="image/x-icon">  Caminho para o favicon em .ico-->
+        <link rel="icon" href="favicon.jpg" type="image/jpg">  <!-- Caminho para o favicon em .jpg -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet"> <!-- Caminho para o WebFont -->
+    </head>
+    <body>
+        <header>
+            <h1> A Casa Stark de Game Of Thrones </h1>
+            <nav class="Links">
+                <a href="CasaStark.html" style="color: white; margin: 0 15px;"> Home </a>
+                <a href="personagens.html" style="color: white; margin: 0 15px;"> Personagens </a>
+                <a href="quiz.html" style="color: white; margin: 0 15px;"> Quiz </a>
+            </nav>
+        </header>
+        <main>
+           <div class ="Texto">
+                <p>
+                    Página dos Personagens
+                </p>
+           </div>
+           <div class="banner" id="banner">
+            <button class="close-btn" onclick="fecharBanner()">X</button>
+            <img src="https://via.placeholder.com/800x300?text=Banner+1" class="active" alt="Banner 1">
+            <img src="https://via.placeholder.com/800x300?text=Banner+2" alt="Banner 2">
+            <img src="https://via.placeholder.com/800x300?text=Banner+3" alt="Banner 3">
+            <button class="arrow left" onclick="mostrarImagem(-1)">&#10094;</button>
+            <button class="arrow right" onclick="mostrarImagem(1)">&#10095;</button>
+        </div>
+
+        </main>
+        <footer>
+            <pre>&copy; 2024 Meu Site. Todos os direitos reservados.</pre>
+        </footer>
+        <script src="personagens.js"></script> <!-- Chama o arquivo JavaScript -->
+    </body>
+</html>

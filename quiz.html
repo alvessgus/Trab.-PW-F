@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <title> Casa Stark | Game Of Thrones </title>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CasaStark.css"> <!-- Chama o arquivo CSS -->
+        <!-- <link rel="icon" href="favicon.ico" type="image/x-icon">  Caminho para o favicon em .ico-->
+        <link rel="icon" href="favicon.jpg" type="image/jpg">  <!-- Caminho para o favicon em .jpg -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet"> <!-- Caminho para o WebFont -->
+    </head>
+    <body>
+        <header>
+            <h1> A Casa Stark de Game Of Thrones </h1>
+            <nav class="Links">
+                <a href="CasaStark.html" style="color: white; margin: 0 15px;"> Home </a>
+                <a href="personagens.html" style="color: white; margin: 0 15px;"> Personagens </a>
+                <a href="quiz.html" style="color: white; margin: 0 15px;"> Quiz </a>
+            </nav>
+        </header>
+        <main>
+           <div class ="Texto">
+                <p>
+                    Página do Quiz
+                </p>
+           </div>
+           <div class="quiz-container">
+            <h2>Descubra com qual personagem você se identifica!</h2>
+            <form id="quizForm">
+                <div class="question">
+                    <p>1. Qual é a sua cor favorita?</p>
+                    <label><input type="radio" name="q1" value="a"> A) Azul</label><br>
+                    <label><input type="radio" name="q1" value="b"> B) Vermelho</label><br>
+                    <label><input type="radio" name="q1" value="c"> C) Verde</label>
+                </div>
+                <div class="question">
+                    <p>2. Qual é o seu hobby favorito?</p>
+                    <label><input type="radio" name="q2" value="a"> A) Ler</label><br>
+                    <label><input type="radio" name="q2" value="b"> B) Esportes</label><br>
+                    <label><input type="radio" name="q2" value="c"> C) Música</label>
+                </div>
+                <div class="question">
+                    <p>3. Como você se descreveria?</p>
+                    <label><input type="radio" name="q3" value="a"> A) Aventureiro</label><br>
+                    <label><input type="radio" name="q3" value="b"> B) Criativo</label><br>
+                    <label><input type="radio" name="q3" value="c"> C) Calmo</label>
+                </div>
+                <button type="button" class="submit-btn" onclick="calcularResultado()">Enviar Respostas</button>
+            </form>
+            <div class="result" id="resultado"></div>
+        </div>
+        </main>
+        <footer>
+            <pre>&copy; 2024 Meu Site. Todos os direitos reservados.</pre>
+        </footer>
+        <script src="quiz.js"></script> <!-- Chama o arquivo JavaScript -->
+    </body>
+</html>
